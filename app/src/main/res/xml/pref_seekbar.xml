@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBarPreference
+        android:key="distance"
+        android:title="@string/seekbar_title"
+        android:summary="Search distance in Kilometer"
+        android:max="5"
+        android:defaultValue="0" />
+</android.support.v7.preference.PreferenceScreen>
